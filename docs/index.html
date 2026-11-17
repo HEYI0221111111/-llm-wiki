@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>首頁 · LLM 研究 Wiki</title>
+<link rel="stylesheet" href="assets/style.css">
+<script>try{var t=localStorage.getItem("wiki-theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body data-root="">
+<header class="topbar">
+  <button class="menu-btn" type="button" aria-label="開啟選單" aria-expanded="false">☰</button>
+  <a class="brand" href="index.html">LLM 研究 Wiki</a>
+  <button class="theme-btn" type="button" aria-label="切換深淺色模式" title="切換深淺色模式"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</header>
+<div class="shell">
+<nav class="sidebar" aria-label="網站導覽">
+  <a class="brand side-brand" href="index.html">LLM 研究 Wiki</a>
+  <div class="search">
+    <label for="q" class="sr-only">搜尋</label>
+    <input id="q" type="search" placeholder="搜尋標題、別名、內文…（按 / ）" autocomplete="off">
+    <ul id="results" class="results" hidden></ul>
+  </div>
+  <ul class="nav"><li><a href="index.html" aria-current=page>首頁</a></li><li><a href="all.html">全部條目</a></li><li><a href="tags.html">標籤</a></li><li><a href="log.html">操作紀錄</a></li></ul>
+  <div class="nav-title">分類</div>
+  <ul class="nav cats"><li><a href="c/syntheses.html">綜整<span class="count">1</span></a></li><li><a href="c/questions.html">研究問題<span class="count">1</span></a></li><li><a href="c/concepts.html">概念<span class="count">3</span></a></li><li><a href="c/methods.html">方法<span class="count">2</span></a></li><li><a href="c/papers.html">論文<span class="count">1</span></a></li></ul>
+</nav>
+<main class="content" id="main">
+<section class="hero">
+<h1>LLM 研究 Wiki</h1>
+<p class="lead">以 Karpathy 的 LLM Wiki 模式，由 AI 從論文與筆記持續編譯而成的研究知識庫。</p>
+<div class="tiles"><div class="tile"><div class="num">8</div><div class="lbl">條目</div></div><div class="tile"><div class="num">1</div><div class="lbl">已收錄來源</div></div><div class="tile"><div class="num">5</div><div class="lbl">分類</div></div><div class="tile"><div class="num">2026-11-17</div><div class="lbl">最後更新</div></div></div>
+</section>
+<section><h2 class="sec">分類</h2><div class="catgrid"><a class="catcard" href="c/syntheses.html"><div class="catname">綜整</div><div class="catcount">1 頁</div><ul><li>LLM 作為語言學習對話夥伴</li></ul></a><a class="catcard" href="c/questions.html"><div class="catname">研究問題</div><div class="catcount">1 頁</div><ul><li>AI 虛擬面試官的系統與評估設計</li></ul></a><a class="catcard" href="c/concepts.html"><div class="catname">概念</div><div class="catcount">3 頁</div><ul><li>Collaborative Virtual Reality</li><li>Foreign Language Anxiety</li><li>Self-Determination Theory</li></ul></a><a class="catcard" href="c/methods.html"><div class="catname">方法</div><div class="catcount">2 頁</div><ul><li>Lag Sequential Analysis</li><li>STT-LLM-TTS Pipeline</li></ul></a><a class="catcard" href="c/papers.html"><div class="catname">論文</div><div class="catcount">1 頁</div><ul><li>以人工智慧支援之協作式虛擬實境提升實用英語溝通能力</li></ul></a></div></section>
+<section><h2 class="sec">最近紀錄</h2><ul class="recent"><li><span class="date">2026-11-17</span><span class="badge op op-web">網站</span><span>建立瀏覽網站 v1</span></li><li><span class="date">2026-11-17</span><span class="badge op op-ingest">收錄</span><span>以人工智慧支援之協作式虛擬實境提升實用英語溝通能力</span></li><li><span class="date">2026-11-17</span><span class="badge op op-schema">規則</span><span>建立知識庫</span></li></ul><p><a href="log.html">查看全部紀錄 →</a></p></section>
+<section class="overview"><h2 class="sec">研究版圖總覽</h2><div class="prose"><blockquote><p>本頁記錄「目前對 LLM 研究整體的理解」，隨收錄的資料逐步改寫。每節只寫結論與指向細節頁的連結，細節放在各自的頁面。</p></blockquote><h2 id="s1">我的研究焦點</h2><p>LLM 驅動的虛擬人物在模擬互動中的應用，目前聚焦在 AI 虛擬面試官，詳見 <a class="wl" href="p/AI-%E8%99%9B%E6%93%AC%E9%9D%A2%E8%A9%A6%E5%AE%98%E7%9A%84%E7%B3%BB%E7%B5%B1%E8%88%87%E8%A9%95%E4%BC%B0%E8%A8%AD%E8%A8%88.html">AI 虛擬面試官的系統與評估設計</a>。關心的面向包括：系統架構、虛擬人物呈現，以及用混合研究法評估使用者經驗。</p><h2 id="s2">主要研究方向</h2><p>目前 wiki 只收錄 1 份來源，版圖集中在「LLM 應用於教育與 HCI」：</p><ul><li><strong>系統面</strong>：串接式語音代理是目前把 LLM 放進 VR 或虛擬人的主流做法，延遲與 STT 錯誤是主要瓶頸（<a class="wl" href="p/STT-LLM-TTS-Pipeline.html">STT-LLM-TTS Pipeline</a>）。</li><li><strong>使用者面</strong>：LLM 對話夥伴的主要賣點是低壓力演練，限制是缺乏真人互動（<a class="wl" href="p/LLM-%E4%BD%9C%E7%82%BA%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92%E5%B0%8D%E8%A9%B1%E5%A4%A5%E4%BC%B4.html">LLM 作為語言學習對話夥伴</a>）。加入同儕（<a class="wl" href="p/Collaborative-Virtual-Reality.html">Collaborative Virtual Reality</a>）主要提升關聯感。</li><li><strong>評估面</strong>：常見組合是 <a class="wl" href="p/Self-Determination-Theory.html">SDT</a> 問卷、對話紀錄的歷程分析（<a class="wl" href="p/Lag-Sequential-Analysis.html">Lag Sequential Analysis</a>）與訪談。</li></ul><p>尚未涵蓋：LLM 本身的架構、訓練、對齊與評測基準。</p><h2 id="s3">目前的主要爭論</h2><ul><li>AI 演練能否遷移到真實人際情境（<a class="wl" href="p/LLM-%E4%BD%9C%E7%82%BA%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92%E5%B0%8D%E8%A9%B1%E5%A4%A5%E4%BC%B4.html">LLM 作為語言學習對話夥伴</a>）。</li></ul><h2 id="s4">資料缺口</h2><ul><li>AI 口說練習的直接實證論文，目前只有二手轉述。</li><li>虛擬面試、面試焦慮與虛擬人擬人化的研究。</li><li>端到端語音模型與串接式管線的比較。</li></ul></div></section>
+<footer class="footer">內容最後更新：2026-11-17 · 由 <code>web/build.py</code> 從 <code>wiki/</code> 產生</footer>
+</main>
+
+</div>
+<script src="assets/search-index.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

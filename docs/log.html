@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>操作紀錄 · LLM 研究 Wiki</title>
+<link rel="stylesheet" href="assets/style.css">
+<script>try{var t=localStorage.getItem("wiki-theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body data-root="">
+<header class="topbar">
+  <button class="menu-btn" type="button" aria-label="開啟選單" aria-expanded="false">☰</button>
+  <a class="brand" href="index.html">LLM 研究 Wiki</a>
+  <button class="theme-btn" type="button" aria-label="切換深淺色模式" title="切換深淺色模式"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</header>
+<div class="shell">
+<nav class="sidebar" aria-label="網站導覽">
+  <a class="brand side-brand" href="index.html">LLM 研究 Wiki</a>
+  <div class="search">
+    <label for="q" class="sr-only">搜尋</label>
+    <input id="q" type="search" placeholder="搜尋標題、別名、內文…（按 / ）" autocomplete="off">
+    <ul id="results" class="results" hidden></ul>
+  </div>
+  <ul class="nav"><li><a href="index.html">首頁</a></li><li><a href="all.html">全部條目</a></li><li><a href="tags.html">標籤</a></li><li><a href="log.html" aria-current=page>操作紀錄</a></li></ul>
+  <div class="nav-title">分類</div>
+  <ul class="nav cats"><li><a href="c/syntheses.html">綜整<span class="count">1</span></a></li><li><a href="c/questions.html">研究問題<span class="count">1</span></a></li><li><a href="c/concepts.html">概念<span class="count">3</span></a></li><li><a href="c/methods.html">方法<span class="count">2</span></a></li><li><a href="c/papers.html">論文<span class="count">1</span></a></li></ul>
+</nav>
+<main class="content" id="main">
+<h1>操作紀錄</h1><p class="muted">新的在上。原始檔：<code>wiki/log.md</code>（只追加不改寫）。</p><ol class="loglist"><li class="logentry"><div class="loghead"><span class="date">2026-11-17</span><span class="badge op op-web">網站</span><strong>建立瀏覽網站 v1</strong></div><div class="prose"><ul><li>新增 web/AGENTS.md（網站規格書）、web/build.py、web/md.py、web/static/</li><li>網站輸出到 docs/：首頁、全部條目、分類頁、條目頁、標籤頁、紀錄頁、全文搜尋、反向連結、深淺色模式、手機版面</li><li>根目錄 AGENTS.md 新增第 12 節「瀏覽網站」</li></ul></div></li><li class="logentry"><div class="loghead"><span class="date">2026-11-17</span><span class="badge op op-ingest">收錄</span><strong>以人工智慧支援之協作式虛擬實境提升實用英語溝通能力</strong></div><div class="prose"><ul><li>來源：raw/papers/以人工智慧支援之協作式虛擬實境提升實用英語溝通能力.pdf（2026 屏大碩論，60 頁，全文讀畢）</li><li>新建：<a class="wl" href="p/%E4%BB%A5%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E6%94%AF%E6%8F%B4%E4%B9%8B%E5%8D%94%E4%BD%9C%E5%BC%8F%E8%99%9B%E6%93%AC%E5%AF%A6%E5%A2%83%E6%8F%90%E5%8D%87%E5%AF%A6%E7%94%A8%E8%8B%B1%E8%AA%9E%E6%BA%9D%E9%80%9A%E8%83%BD%E5%8A%9B.html">以人工智慧支援之協作式虛擬實境提升實用英語溝通能力</a>、<a class="wl" href="p/Collaborative-Virtual-Reality.html">Collaborative Virtual Reality</a>、<a class="wl" href="p/Self-Determination-Theory.html">Self-Determination Theory</a>、<a class="wl" href="p/Foreign-Language-Anxiety.html">Foreign Language Anxiety</a>、<a class="wl" href="p/STT-LLM-TTS-Pipeline.html">STT-LLM-TTS Pipeline</a>、<a class="wl" href="p/Lag-Sequential-Analysis.html">Lag Sequential Analysis</a>、<a class="wl" href="p/LLM-%E4%BD%9C%E7%82%BA%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92%E5%B0%8D%E8%A9%B1%E5%A4%A5%E4%BC%B4.html">LLM 作為語言學習對話夥伴</a>、<a class="wl" href="p/AI-%E8%99%9B%E6%93%AC%E9%9D%A2%E8%A9%A6%E5%AE%98%E7%9A%84%E7%B3%BB%E7%B5%B1%E8%88%87%E8%A9%95%E4%BC%B0%E8%A8%AD%E8%A8%88.html">AI 虛擬面試官的系統與評估設計</a></li><li>更新：<a class="wl" href="all.html">全部條目</a>、<a class="wl" href="index.html">總覽</a>（首次填寫研究焦點與資料缺口）</li><li>備註：論文的「CVR 累積語言產出較高」換算成人均後不成立（CVR 每人 211 字，VR 每人 239 字），已寫入論文頁的限制段落；文獻回顧中的二手引用已標註待查證</li></ul></div></li><li class="logentry"><div class="loghead"><span class="date">2026-11-17</span><span class="badge op op-schema">規則</span><strong>建立知識庫</strong></div><div class="prose"><ul><li>建立 AGENTS.md、資料夾結構、頁面範本與 tools/lint.py</li><li>尚未收錄任何資料</li></ul></div></li></ol>
+<footer class="footer">內容最後更新：2026-11-17 · 由 <code>web/build.py</code> 從 <code>wiki/</code> 產生</footer>
+</main>
+
+</div>
+<script src="assets/search-index.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

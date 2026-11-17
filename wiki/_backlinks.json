@@ -1,0 +1,82 @@
+{
+  "AI 虛擬面試官的系統與評估設計": [
+    "LLM 作為語言學習對話夥伴",
+    "Lag Sequential Analysis",
+    "STT-LLM-TTS Pipeline",
+    "Self-Determination Theory",
+    "index",
+    "log",
+    "overview",
+    "以人工智慧支援之協作式虛擬實境提升實用英語溝通能力"
+  ],
+  "Collaborative Virtual Reality": [
+    "Foreign Language Anxiety",
+    "LLM 作為語言學習對話夥伴",
+    "Self-Determination Theory",
+    "index",
+    "log",
+    "overview",
+    "以人工智慧支援之協作式虛擬實境提升實用英語溝通能力"
+  ],
+  "Foreign Language Anxiety": [
+    "LLM 作為語言學習對話夥伴",
+    "index",
+    "log",
+    "以人工智慧支援之協作式虛擬實境提升實用英語溝通能力"
+  ],
+  "LLM 作為語言學習對話夥伴": [
+    "AI 虛擬面試官的系統與評估設計",
+    "Collaborative Virtual Reality",
+    "Foreign Language Anxiety",
+    "STT-LLM-TTS Pipeline",
+    "index",
+    "log",
+    "overview",
+    "以人工智慧支援之協作式虛擬實境提升實用英語溝通能力"
+  ],
+  "Lag Sequential Analysis": [
+    "AI 虛擬面試官的系統與評估設計",
+    "index",
+    "log",
+    "overview",
+    "以人工智慧支援之協作式虛擬實境提升實用英語溝通能力"
+  ],
+  "STT-LLM-TTS Pipeline": [
+    "AI 虛擬面試官的系統與評估設計",
+    "LLM 作為語言學習對話夥伴",
+    "index",
+    "log",
+    "overview",
+    "以人工智慧支援之協作式虛擬實境提升實用英語溝通能力"
+  ],
+  "Self-Determination Theory": [
+    "AI 虛擬面試官的系統與評估設計",
+    "Collaborative Virtual Reality",
+    "LLM 作為語言學習對話夥伴",
+    "index",
+    "log",
+    "overview",
+    "以人工智慧支援之協作式虛擬實境提升實用英語溝通能力"
+  ],
+  "index": [
+    "log"
+  ],
+  "log": [
+    "index"
+  ],
+  "overview": [
+    "index",
+    "log"
+  ],
+  "以人工智慧支援之協作式虛擬實境提升實用英語溝通能力": [
+    "AI 虛擬面試官的系統與評估設計",
+    "Collaborative Virtual Reality",
+    "Foreign Language Anxiety",
+    "LLM 作為語言學習對話夥伴",
+    "Lag Sequential Analysis",
+    "STT-LLM-TTS Pipeline",
+    "Self-Determination Theory",
+    "index",
+    "log"
+  ]
+}
